@@ -1,0 +1,136 @@
+/**{
+	transition: all .4s ease;
+}*/
+
+body {
+	font-family: 'Montserrat',sans-serif;
+	margin: 0;
+}
+
+
+.main {
+	background: #DD4B5E;
+	padding-bottom: 130px;
+	background-attachment: fixed;
+}
+
+.main img {
+	width: 15%;
+	border-radius: 50%;
+	margin-top: 5%;
+	border: 15px solid rgba(255,255,255,0.2);
+}
+
+h1 {
+	color: #fff;
+	margin-top: 3%;
+	font-size: 4em;
+}
+
+h3 {
+ 	color: #fff;
+ 	font-weight: 300;
+ 	font-size: 20px;
+}
+
+.new {
+	margin-top: 3%;
+	color: #333;
+	font-size: 2.4em;
+	border-bottom: 1px solid #000;
+	width: 17%;
+	padding-bottom: 1%;
+}
+
+.new-p {
+	width: 70%;
+	font-weight: 300;
+	font-family: 'Titillium Web',sans-serif;
+	font-size: 1.6em;
+	text-align: justify;
+	margin-top: 3%;
+}
+
+a {
+	text-decoration: none;
+	color: #16a085;
+	border-bottom: 1px solid transparent;
+	font-size: 1.2em;
+	padding: 0.3%;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+a:hover {
+	border-bottom: 1px solid #16a085;
+}
+
+.social .soc {
+  display: inline-block;
+  padding: 20px;
+  cursor: pointer;
+  color: #333;
+  font-size: 40px;
+  margin-right: 0.4%;
+  margin-left: 0.4%;
+  margin-bottom: 50px;
+  border: 4px solid #333;
+  transition: all .2s ease;
+}
+
+#soc1 {
+  padding-right: 33px;
+  padding-left: 33px;
+}
+
+#soc2 {
+  padding-right: 28px;
+  padding-left: 28px;
+}
+
+#soc3 {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+#soc1:hover {
+  color: #fff;
+  border-color: #3b5998;
+  background: #3b5998;
+  transition: all .2s ease;
+}
+
+#soc2:hover {
+  color: #fff;
+  border-color: #DD4B5E;
+  background: #DD4B5E;
+  transition: all .2s ease;
+}
+
+#soc3:hover {
+  color: #fff;
+  border-color: #2980b9;
+  background: #2980b9;
+  transition: all .2s ease;
+}
+footer {
+	background: #eee;
+	padding-bottom: 1%;
+}
+
+footer p {
+	color: #888;
+	font-weight: 300;
+}
+
+.pro {
+   border-bottom: 1px solid transparent;
+   transition: all .3s ease;
+   padding-bottom: 0.4%;
+   cursor: pointer;
+}
+
+.pro:hover {
+   border-bottom: 1px solid #888;
+   transition: all .3s ease;
+}
